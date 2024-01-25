@@ -4,7 +4,7 @@ import {ClientCriteria} from 'app/controller/criteria/commun/ClientCriteria.mode
 
 export class AchatCriteria  extends  BaseCriteria {
 
-    public id: number;
+    public id: number | null;
 
     public reference: string;
     public referenceLike: string;

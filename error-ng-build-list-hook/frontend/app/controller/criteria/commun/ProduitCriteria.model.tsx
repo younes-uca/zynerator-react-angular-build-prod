@@ -3,7 +3,7 @@ import {BaseCriteria} from 'app/zynerator/criteria/BaseCriteria.model';
 
 export class ProduitCriteria  extends  BaseCriteria {
 
-    public id: number;
+    public id: number | null;
 
     public reference: string;
     public referenceLike: string;

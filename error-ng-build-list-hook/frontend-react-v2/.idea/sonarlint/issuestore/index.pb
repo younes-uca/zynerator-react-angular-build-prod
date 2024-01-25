@@ -1,0 +1,21 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+?
+layout/i18n.tsx,7\6\767bb9c5ec7d44baa4a5420c6bd851ebab98b727
+A
+layout/layout.tsx,c\f\cfc0682f4e19a17afa8996a292dcc2a93e72faa2
+[
++app/component/profile/profile.component.tsx,d\7\d71d78ce0ccab73dd26997c8f7522ca124afa7d1
+W
+'app/zynerator/security/User.service.tsx,7\f\7f454fa51a8ba41edc40ba48beb6fa8599c6535c
+R
+"app/zynerator/dto/UserDto.model.ts,4\d\4df7f2cc214513ff676f674455f2e0f850fe0af0
+Y
+)app/zynerator/service/AbstractService.tsx,b\2\b2226499f5429490d1f1fd16ed5de67903d3894a
+T
+$app/component/zyhook/useListhook.tsx,3\a\3a8c7fabb1f303fb55c06bf6db352cba41ab187b
+R
+"app/zynerator/dto/BaseDto.model.ts,5\8\584ea2e4c13f51c8e990e688ad6e7c7dbc2d15aa
+Z
+*app/controller/model/stock/Achat.model.tsx,c\2\c2d7efe795f78b5985a57875aed7ef216bd2e2c0

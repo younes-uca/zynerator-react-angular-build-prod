@@ -1,9 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 
 import { useRouter } from 'next/router';
 import React from 'react';
 import { Button } from 'primereact/button';
 import type { Page } from 'types/types';
+import AppConfig from 'layout/AppConfig';
 
 const ErrorPage: Page = () => {
     const router = useRouter();
@@ -28,7 +28,7 @@ const ErrorPage: Page = () => {
     );
 };
 
-ErrorPage.getLayout = function getLayout(page) {
+ErrorPage.getLayout = function getLayout(page:any) {
     return (
         <React.Fragment>
             {page}

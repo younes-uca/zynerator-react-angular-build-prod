@@ -48,7 +48,7 @@ const useListHook = <T extends BaseDto, C extends BaseCriteria>({
 
 
     const fetchItems = (criteria: C) => {
-        service.findPaginatedByCriteria(criteria).then(({data}) => {
+        service.findPaginatedByCriteria(criteria).then(({data}:any) => {
             setTotalRecords(data.dataSize);
             setItems(data.list);
         }).catch(error => console.log(error));
@@ -201,7 +201,7 @@ const useListHook = <T extends BaseDto, C extends BaseCriteria>({
                             onClick={showCreateModal}/>
                     <Button label={t("delete")} icon="pi pi-trash" severity="danger" className=" mr-2"
                             onClick={confirmDeleteSelected} disabled={!selectedItems || !selectedItems.length}/>
-                    <Button label={t("search")} icon={pi pi-${findByCriteriaShow ? 'angle-down' : 'angle-right'}}
+                    <Button label={t("search")} icon={`pi pi-${findByCriteriaShow ? 'angle-down' : 'angle-right'}`}
                             className=" mr-2" severity="secondary" onClick={showSearch}/>
                 </div>
             </React.Fragment>
@@ -211,7 +211,7 @@ const useListHook = <T extends BaseDto, C extends BaseCriteria>({
     const rightToolbarTemplate = () => {
         return (
             <React.Fragment>
-                <FileUpload mode="basic" accept="image/*" maxFileSize={1000000} chooseLabel="Export"
+                <FileUpload mode="basic" accept="image/*" maxFileSize={1000000} chooseLabel="Import"
                             className="mr-2 inline-block"/>
                 <Button label={t("export")} icon="pi pi-upload" severity="secondary" onClick={exportCSV}/>
             </React.Fragment>

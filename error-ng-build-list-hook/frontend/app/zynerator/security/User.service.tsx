@@ -5,7 +5,7 @@ import AbstractService from "app/zynerator/service/AbstractService";
 
 
 import { AxiosResponse } from "axios";
-import axios from 'app/axiosInterceptor';
+import axios from 'axios';
 import {UserCriteria} from "../criteria/UserCriteria.model";
 
 export class UserService extends AbstractService<UserDto, UserCriteria>{

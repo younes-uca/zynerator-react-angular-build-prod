@@ -38,10 +38,19 @@ const Profile = () => {
 
     useEffect(() => {
         const tokenDecoded = authService.decodeJWT();
-        const { sub, email, nom, prenom, telephone } = tokenDecoded;
-        setConnectedUser({ ...connectedUser as any, username: sub, email: email, nom: nom, prenom: prenom, telephone: telephone });
-    }, []);
 
+        if (tokenDecoded && typeof tokenDecoded !== 'string') {
+            const { sub, email, nom, prenom, tel } = tokenDecoded;
+            setConnectedUser({
+                ...connectedUser as any,
+                username: sub,
+                email: email,
+                nom: nom,
+                prenom: prenom,
+                tel: tel
+            });
+        }
+    }, []);
     console.log({ connectedUser })
 
     return (

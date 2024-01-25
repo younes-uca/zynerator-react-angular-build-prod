@@ -5,7 +5,7 @@ import {ProduitCriteria} from 'app/controller/criteria/commun/ProduitCriteria.mo
 
 export class AchatItemCriteria  extends  BaseCriteria {
 
-    public id: number;
+    public id: number | null;
 
      public prixUnitaire: null | number;
      public prixUnitaireMin: null | number;

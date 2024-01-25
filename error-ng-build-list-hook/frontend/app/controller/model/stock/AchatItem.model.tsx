@@ -1,7 +1,8 @@
 import {BaseDto} from 'app/zynerator/dto/BaseDto.model';
+import {ProduitDto} from "../commun/Produit.model";
+import {AchatDto} from "./Achat.model";
 
-import {Achat} from 'app/controller/dto/stock/Achat.model';
-import {Produit} from 'app/controller/dto/commun/Produit.model';
+
 
 export class AchatItemDto extends BaseDto{
 
