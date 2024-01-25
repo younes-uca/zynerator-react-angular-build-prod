@@ -1,0 +1,44 @@
+
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+7
+App.tsx,2\f\2f3db35b9bba122792d724b9b48a0aac92ebbb79
+:
+
+ReadMe.txt,5\2\5225f01f4c17d05f03bd8a6c2a2dfc128c7f65d7
+9
+	ReadMe.md,a\2\a225a7e79496c5a1d847c78c3db651eb302ec867
+x
+Hsrc/component/admin/view/stock/achat/edit/achat-edit-admin.component.tsx,a\7\a706399615109f697e2c7ae31f260f4e49bc0dba
+
+Osrc/component/admin/view/commun/client/create/client-create-admin.component.tsx,d\3\d3c6e01ec3bb49fade35f48d4f4294ac812956a1
+h
+8src/zynerator/commun/client/ClientSaveFeedbackModal.null,6\e\6e41207fa3b995c56bf119141bc3eeacac652314
+S
+#src/zynerator/SaveFeedbackModal.tsx,5\f\5f0fb764fecf9cf2d8ce13104b621d8835a99d65
+Z
+*src/controller/model/stock/Achat.model.tsx,1\f\1f33f5ed41e97fb901af9e6ff72e89c874cfcb58
+^
+.src/controller/model/stock/AchatItem.model.tsx,c\1\c17b39ee9b3991bdd05d98fa8088c12d31c1c235
+\
+,src/controller/model/commun/Client.model.tsx,a\7\a70b0d8b1f50d8cf5387009bac26cff8b1799f2b
+]
+-src/controller/model/commun/Produit.model.tsx,a\9\a912ea54e772be84d6cbff7ae7145e338b8dd8f4
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
+†
+Vsrc/component/admin/view/stock/achat-item/create/achat-item-create-admin.component.tsx,2\4\2449327ad64d7f37a52bfa2c0cbfab9854bc9916
+|
+Lsrc/component/admin/view/stock/achat/create/achat-create-admin.component.tsx,6\d\6de07f74e4d0092c8284a5802b23117ba7ebe0b1
+‚
+Rsrc/component/admin/view/stock/achat-item/edit/achat-item-edit-admin.component.tsx,c\d\cd128197ca6333329f76d9cc7647608924ac627c
+x
+Hsrc/component/admin/view/stock/achat/view/achat-view-admin.component.tsx,e\a\ea2bd469a57ee352d9ed0a919c1c826152f4e02c
+P
+ src/navigation/AppNavigation.tsx,e\6\e6feb29d118cf568cdc0c342ae1f05470461815c
+O
+src/navigation/drawer/index.tsx,3\8\38df96a1d0153d2cef9a1e7529581e5bdb863ea1
+e
+5src/navigation/drawer/elements/commun/ClientStack.tsx,5\b\5b8671840649f33325a91bfa395f0f58125eb2be
+x
+Hsrc/component/admin/view/stock/achat/list/achat-list-admin.component.tsx,a\3\a31102a1e1d6c357cb00ce6ea7393c8af941c600
