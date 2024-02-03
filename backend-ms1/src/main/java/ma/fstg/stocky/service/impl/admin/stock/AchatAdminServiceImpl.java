@@ -32,14 +32,14 @@ public class AchatAdminServiceImpl extends AbstractServiceImpl<Achat, AchatCrite
 
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class, readOnly = false)
     public Achat create(Achat t) {
-    
+        Achat achat = super.create(t);
         if (t.getAchatItems() != null) {
                 t.getAchatItems().forEach(element-> {
-                    element.setAchat(t);
+                    element.setAchat(achat);
                     achatItemService.create(element);
             });
         }
-        return t;
+        return achat;
 
     }
 

@@ -3,17 +3,12 @@
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 7
 App.tsx,2\f\2f3db35b9bba122792d724b9b48a0aac92ebbb79
-:
-
-ReadMe.txt,5\2\5225f01f4c17d05f03bd8a6c2a2dfc128c7f65d7
 9
 	ReadMe.md,a\2\a225a7e79496c5a1d847c78c3db651eb302ec867
 x
 Hsrc/component/admin/view/stock/achat/edit/achat-edit-admin.component.tsx,a\7\a706399615109f697e2c7ae31f260f4e49bc0dba
 
 Osrc/component/admin/view/commun/client/create/client-create-admin.component.tsx,d\3\d3c6e01ec3bb49fade35f48d4f4294ac812956a1
-h
-8src/zynerator/commun/client/ClientSaveFeedbackModal.null,6\e\6e41207fa3b995c56bf119141bc3eeacac652314
 S
 #src/zynerator/SaveFeedbackModal.tsx,5\f\5f0fb764fecf9cf2d8ce13104b621d8835a99d65
 Z
@@ -42,3 +37,11 @@ e
 5src/navigation/drawer/elements/commun/ClientStack.tsx,5\b\5b8671840649f33325a91bfa395f0f58125eb2be
 x
 Hsrc/component/admin/view/stock/achat/list/achat-list-admin.component.tsx,a\3\a31102a1e1d6c357cb00ce6ea7393c8af941c600
+Å
+Qsrc/component/admin/view/commun/produit/create/produit-create-admin.component.tsx,f\d\fd992d087eb27d5b55d809475a243bc23c9c3045
+s
+Csrc/controller/service/admin/commun/ProduitAdminService.service.tsx,f\c\fcb8c36a9f8cb0374bd499816fc4f58812846242
+Y
+)src/zynerator/service/AbstractService.tsx,3\8\3811c2894d884f90318fcc45b0ab6761db99f15e
+r
+Bsrc/controller/service/admin/commun/ClientAdminService.service.tsx,3\a\3a8ffe97f5cf3dcca59e9aeae9f8de5a600d61f6

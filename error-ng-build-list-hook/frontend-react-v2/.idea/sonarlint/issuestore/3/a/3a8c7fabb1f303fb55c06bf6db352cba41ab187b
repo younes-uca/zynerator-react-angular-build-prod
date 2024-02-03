@@ -1,0 +1,9 @@
+
+Ltypescript:S1128")Remove this unused import of 'InputText'.(²Åƒó8Èõ¨Ô1
+]typescript:S1854("5Remove this useless assignment to variable "setRows".(Óøğçùÿÿÿÿ8Ëõ¨Ô1
+gtypescript:S1854/"?Remove this useless assignment to variable "isSearchTriggered".(«áöûÿÿÿÿ8Ëõ¨Ô1
+ƒtypescript:S6582O"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(ÎÒ€Ïşÿÿÿÿ8Ëõ¨Ô1
+~typescript:S6582s"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(´’§Ÿ8Ëõ¨Ô1
+~typescript:S6582|"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(´’§Ÿ8Ëõ¨Ô1
+Otypescript:S6749Æ",A fragment with only one child is redundant.(÷Å…Z8Ëõ¨Ô1
+„typescript:S6582Ë"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(†²Š‘üÿÿÿÿ8Ëõ¨Ô1
